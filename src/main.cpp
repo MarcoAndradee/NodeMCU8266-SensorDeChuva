@@ -62,15 +62,15 @@ Serial.println("WiFi connected.");
 Serial.println("IP address: ");
 Serial.println(WiFi.localIP());
 Serial.println();
-Email();
 }
 void loop() {
 //Lendo a porta analógica
 int chuvaAnalogVal = analogRead(chuvaAnalog);
 //Lendo a porta digital
 int chuvaDigitalVal = digitalRead(chuvaDigital);
-Serial.print(chuvaAnalogVal);
-Serial.print("\t");
-Serial.println(chuvaDigitalVal);
-delay(200);
+
+if (chuvaDigitalVal == 0){
+  Email();
+}
+delay(300000);
 }
