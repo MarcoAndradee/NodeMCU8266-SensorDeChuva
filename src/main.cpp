@@ -8,8 +8,8 @@
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 // Credenciais
-#define AUTHOR_EMAIL "andradee.marcoantonio@gmail.com"
-#define AUTHOR_PASSWORD "zkhakrzgackktlno"
+#define AUTHOR_EMAIL ""
+#define AUTHOR_PASSWORD ""
 // Para
 #define RECIPIENT_EMAIL "cassianoprediger@gmail.com"
 // Sessão SMTP usado para envio de e-mail
