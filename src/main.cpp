@@ -17,7 +17,7 @@ IPAddress subnet(255, 255, 255, 0);
 #define AUTHOR_PASSWORD ""
 
 // Para
-#define RECIPIENT_EMAIL "barbosa90r@gmail.com"
+#define RECIPIENT_EMAIL ""
 
 AsyncWebServer server(80);
 AsyncEventSource events("/events");
